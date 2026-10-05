@@ -18,5 +18,5 @@ ftechStudents((rawdata) => {
     const studentsin102 = filterStudents(students , student => student.courses.some(course => course.courseId === 102));
     const namesin102 = studentsin102.map(s => s.name).join("/");
     console.log('Students in course 102: ${namesin102}');
-});
+}); 
 
