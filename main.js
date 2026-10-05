@@ -19,4 +19,4 @@ ftechStudents((rawdata) => {
     const namesin102 = studentsin102.map(s => s.name).join("/");
     console.log('Students in course 102: ${namesin102}');
 }); 
-
+ 
