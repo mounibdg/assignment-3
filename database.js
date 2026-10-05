@@ -6,5 +6,5 @@ export function fetchStudents(callback){
             { id: 3, name: "Ahmet", courses: [{ courseId: 101, grade: 60 }, { courseId: 102, grade: 55 }] }
         ];
         callback (rawdata);
-    }, 2000);
+    }, 2000); 
 }
