@@ -24,7 +24,7 @@ export function findTopStudent(students){
         student.grade.forEach(grade => {
             if (student.grade > TopGrade){
                 TopStudent =  student ; 
-                TopGrade = student.grade;
+                TopGrade = stud ent.grade;
             }
         });
     });
